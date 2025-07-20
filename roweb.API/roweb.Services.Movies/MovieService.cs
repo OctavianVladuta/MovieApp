@@ -68,7 +68,7 @@ namespace roweb.Services.Movies
                 throw new Exception("A aparut o eroare neprevazuta", ex);
             }
         }
-
+        
         public async Task<IEnumerable<MovieDetailsDto>> SearchMoviesAsync(string? name, int? genreId)
         {
             try
@@ -131,5 +131,7 @@ namespace roweb.Services.Movies
                 throw new Exception("A aparut o eroare neprevazuta", ex);
             }
         }
+
+        //test commit
     }
 }
